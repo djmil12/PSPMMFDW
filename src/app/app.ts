@@ -60,7 +60,7 @@ class App {
 		// Tell express to start listening for requests on the port we specified
 		this.app.listen(this.port, () => {
 			this.log.info(
-				`Express started on http://localhost:${this.port}; press Ctrl-C to terminate.`
+				`Express started on http://localhost:${82820}; press Ctrl-C to terminate.`
 			);
 		});
 	}
